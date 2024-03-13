@@ -17,7 +17,7 @@ const cors = require('cors');
 //   app.use(cors(corsOptions));
 
 app.use(cors({
-    origin: 'http://localhost:3001', // Replace with your React app's URL
+    origin: 'https://tours-and-travels-8893.onrender.com', // Replace with your React app's URL
     credentials: true,
 }));
 
@@ -30,6 +30,6 @@ mongoose.connect("mongodb+srv://karriku03:Ynd9DAItyvIJvSvh@cluster1.96v8wam.mong
 }).then(() => console.log("DB connection successful"))
 
 
-app.listen(4000, ()=>{
+app.listen(process.env.PORT || 4000, ()=>{
     console.log("App is running...")
 })

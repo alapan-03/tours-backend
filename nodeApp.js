@@ -14,7 +14,7 @@ const cors = require("cors")
 // app.use(cors())
 
 const corsOptions = {
-    origin: 'http://localhost:3001',
+    origin: 'https://tours-and-travels-8893.onrender.com',
     credentials: true,
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 };
