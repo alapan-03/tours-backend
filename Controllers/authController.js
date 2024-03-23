@@ -5,11 +5,11 @@ const { promisify } = require("util");
 const sendEmail = require("./../utils/email")
 let express = require('express'); 
 let app = express() 
-let cookieParser = require('cookie-parser'); 
-let cookie = require("js-cookie")
+// let cookieParser = require('cookie-parser'); 
+// let cookie = require("js-cookie")
 
 
-app.use(cookieParser()); 
+// app.use(cookieParser()); 
 
 
 exports.signup = async (req, res, next) => {
