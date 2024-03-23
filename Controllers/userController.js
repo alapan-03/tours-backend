@@ -1,5 +1,5 @@
 const fs = require("fs")
-const User = require("./../Models/userModel");
+const User = require("./../models/userModel");
 
 // const readFile = JSON.parse(fs.readFileSync("./dev-data/data/tours-simple.json"))
 

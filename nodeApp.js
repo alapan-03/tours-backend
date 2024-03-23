@@ -1,10 +1,10 @@
 // Ynd9DAItyvIJvSvh
 
-const tourRouter = require("./Router/tourRouter")
-const userRouter = require("./Router/userRouter")
-const detailRouter = require("./Router/detailRouter")
-const reviewRouter = require("./Router/reviewRouter")
-const bookedRouter = require("./Router/bookedRouter")
+const tourRouter = require("./router/tourRouter")
+const userRouter = require("./router/userRouter")
+const detailRouter = require("./router/detailRouter")
+const reviewRouter = require("./router/reviewRouter")
+const bookedRouter = require("./router/bookedRouter")
 
 const express= require("express");
 const app = express()

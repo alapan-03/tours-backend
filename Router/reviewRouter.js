@@ -1,7 +1,7 @@
-const reviewController = require("./../Controllers/reviewController");
+const reviewController = require("./../controllers/reviewController");
 const express = require("express")
 const bodyParser = require("body-parser");
-const authController = require("./../Controllers/authController");
+const authController = require("./../controllers/authController");
 const app = express();
 
 const router = express.Router({ mergeParams: true});

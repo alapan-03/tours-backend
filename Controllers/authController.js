@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const User = require("../Models/userModel");
+const User = require("../models/userModel");
 const jwt = require("jsonwebtoken");
 const { promisify } = require("util");
 const sendEmail = require("./../utils/email")

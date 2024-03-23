@@ -1,10 +1,10 @@
 const express= require("express");
 const router = express.Router();
-const tourController = require("../Controllers/tourController");
-const reviewController = require("../Controllers/reviewController");
-const reviewRouter = require("./../Router/reviewRouter");
+const tourController = require("../controllers/tourController");
+const reviewController = require("../controllers/reviewController");
+const reviewRouter = require("./../router/reviewRouter");
 const bodyParser = require("body-parser");
-const authController = require("./../Controllers/authController");
+const authController = require("./../controllers/authController");
 const app = express();
 
 router.use("/:tourId/reviews", reviewRouter);

@@ -1,4 +1,4 @@
-const Review = require("./../Models/reviewModel");
+const Review = require("./../models/reviewModel");
 const factory = require("./factoryHandler")
 
 exports.getAllReview = async (req, res, next) => {

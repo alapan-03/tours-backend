@@ -1,4 +1,4 @@
-const Tour = require("../Models/tourModel");
+const Tour = require("../models/tourModel");
 const fs = require("fs");
 const factory = require("./factoryHandler")
 
